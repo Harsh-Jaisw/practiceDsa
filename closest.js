@@ -5,8 +5,8 @@ function ClosestSum(arr,k){
  let a
  let b
  while(l<r){
-    pairsum=arr[l]+arr[r]
-    let currdiff=Math.abs(pairsum-k)
+   
+    let currdiff=Math.abs(arr[l]+arr[r]-k)
     if(currdiff<diff){
       diff=currdiff
       a=arr[l]

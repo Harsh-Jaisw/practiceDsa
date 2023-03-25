@@ -9,4 +9,14 @@ function powerOf(n){
         return powerOf(n/4)
     }
 }
-console.log(powerOf(64)) 
+console.log(powerOf(4)) 
+
+// function power(n,i){
+//     if(i===0){
+//         return 1
+//     }
+//     else{
+//         return n*power(n,i-1)
+//     }
+// }
+// console.log(power(2,2))

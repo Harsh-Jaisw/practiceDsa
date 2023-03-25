@@ -1,4 +1,4 @@
-// let arr=[-25,-3,78,4,-58,-14,-6,-9]
+// let arr=[-25,-3,78,4,58,-14,-6,-9]
 // //kadane's Algorithum
 // let max_sum=-Infinity
 // let sum=0
@@ -12,10 +12,10 @@
 //     if(sum<0){
 //         sum=0
 //     }
+    
 // }
-
-
 // console.log(max_sum)
+
 // function isAnagram(s1,s2){
 //     if(s1.length!== s2.length){
 //         return false;

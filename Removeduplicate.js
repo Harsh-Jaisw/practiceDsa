@@ -8,16 +8,15 @@ var removeDuplicates = function(nums) {
             mp.set(x,v)
         }else{
             mp.set(x,1)
-        };
-        
+        };  
     }
-    console.log(mp)
+    // console.log(mp)
     let index=0;
     mp.forEach((_,key)=>{
         nums[index]=key;  //[1,2,6]  
         index++
     })
-    console.log(nums)
+    // console.log(nums)
       return index;
     
 };
