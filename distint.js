@@ -4,4 +4,4 @@ function checkDistinct(ch){
       fre[ch[j]]=(fre[ch[j]]||0)+1
     }
     return Object.values(fre).every(x => x === 1)
-  } console.log( checkDistinct("xyzaa"))
+  } console.log( checkDistinct("xyzamm"))

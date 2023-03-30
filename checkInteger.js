@@ -3,4 +3,4 @@ function checkInteager(x){
    let res=pattern.test(x)
 return res
 }
-console.log(checkInteager('7.9'))
+console.log(checkInteager('7'))
