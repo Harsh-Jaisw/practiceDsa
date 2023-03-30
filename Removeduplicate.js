@@ -17,7 +17,8 @@ var removeDuplicates = function(nums) {
         index++
     })
     // console.log(nums)
-      return index;
+    nums.length=index
+      return nums;
     
 };
 console.log(removeDuplicates([1,1,2,2,6]))
