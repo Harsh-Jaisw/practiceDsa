@@ -21,4 +21,4 @@ function ClosestSum(arr,k){
  }
  return [a,b]
 }
-console.log(ClosestSum([1,2,3,4,4,5],10))
+console.log(ClosestSum([1,2,3,4,5,5],10))

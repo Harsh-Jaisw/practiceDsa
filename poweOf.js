@@ -9,7 +9,7 @@ function powerOf(n){
         return powerOf(n/4)
     }
 }
-console.log(powerOf(4)) 
+console.log(powerOf(24)) 
 
 // function power(n,i){
 //     if(i===0){
