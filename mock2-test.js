@@ -1,24 +1,24 @@
-//1- We have given two array and we have to check the sequence of array2 with array1 and return true or false.
-// function SequenceArr(arr1, arr2) {
-//   let i = 0;
-//   let j = 0;
-//   n = arr1.length;
-//   let count = 0;
-//   while (i < n) {
-//     if (arr1[i] === arr2[j]) {
-//       j++;
-//       i++;
-//       count++;
-//     } else {
-//       i++;
-//     }
-//   }
-//   if (count == arr2.length) {
-//     return true;
-//   }
-//   return false;
-// }
-// console.log(SequenceArr([10, 4, 7, 2, 3, 6], [10, 2, 6]));
+// 1- We have given two array and we have to check the sequence of array2 with array1 and return true or false.
+function SequenceArr(arr1, arr2) {
+  let i = 0;
+  let j = 0;
+  let n = arr1.length;
+  let count = 0;
+  while (i < n) {
+    if (arr1[i] === arr2[j]) {
+      j++;
+      i++;
+      count++;
+    } else {
+      i++;
+    }
+  }
+  if (count == arr2.length) {
+    return true;
+  }
+  return false;
+}
+console.log(SequenceArr([10, 4, 7, 2, 3, 6], [10, 3, 2]));
 
 //2-Find the total sum of the array which included the price using reduce function. 
 //  let product = [
