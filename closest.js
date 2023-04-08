@@ -7,7 +7,7 @@ function ClosestSum(arr,k){
  while(l<r){
    
     let currdiff=Math.abs(arr[l]+arr[r]-k)
-    if(currdiff<diff){
+    if(currdiff<diff){//3,2,1
       diff=currdiff
       a=arr[l]
       b=arr[r]
@@ -21,4 +21,4 @@ function ClosestSum(arr,k){
  }
  return [a,b]
 }
-console.log(ClosestSum([1,2,3,4,5,5],10))
+console.log(ClosestSum([1,2,3,3,5,6],10))
